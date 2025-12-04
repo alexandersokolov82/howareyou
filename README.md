@@ -87,6 +87,12 @@ The APK will be at: `app/build/outputs/apk/debug/app-debug.apk`
 ./gradlew assembleRelease
 ```
 
+## Previewing the App
+
+- **Interactive preview (recommended)**: Open the project in Android Studio and run on an emulator or a physical device (API 26+). Click the green **Run** button to install and launch the app.
+- **Compose Preview**: Open any composable file (e.g., `TimelineScreen.kt`) and use the **Split** view with **Design** → **Interactive** in Android Studio to see a static preview of the UI without installing.
+- **Browser?**: The app is Android-native (Jetpack Compose). There is no web build or browser preview; use an emulator/device instead.
+
 ## Using the App
 
 ### First Launch
